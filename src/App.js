@@ -12,7 +12,7 @@ function App() {
     selected: {},
     newRelease: [],
   });
-  const apiUrl = "http://www.omdbapi.com/?apikey=2267788b";
+  const apiUrl = "https://www.omdbapi.com/?apikey=2267788b";
 
   useEffect(() => {
     axios(apiUrl);
